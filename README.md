@@ -147,4 +147,20 @@ Backend will run on: **http://localhost:5000**
 ```http
 POST /api/auth/register    # User registration
 POST /api/auth/login       # User login
-GET  /api/auth/me          # Get current user
+GET  /api/auth/user          # Get current user
+```
+
+### Post Endpoints
+```http
+POST /api/posts/create     # Create new post
+GET  /api/posts/all        # Get all posts
+GET  /api/posts/:id        # Get post by ID
+DELETE /api/posts/:id      # Delete post by ID
+```
+
+### User Endpoints
+```http
+GET  /api/users/:id        # Get user by ID
+```
+
+
