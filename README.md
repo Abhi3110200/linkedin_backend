@@ -108,10 +108,6 @@ CLOUDINARY_API_SECRET=your-api-secret
 
 **Start backend server:**
 ```bash
-# Seed database with demo data
-npm run seed
-
-# Start development server
 npm run dev
 ```
 
